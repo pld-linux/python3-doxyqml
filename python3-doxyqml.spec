@@ -1,14 +1,16 @@
+# Conditional build:
+%bcond_without	tests	# unit tests
 %define		module	doxyqml
 Summary:	Doxyqml
 Summary(pl.UTF-8):	Doxyqml
 Name:		python3-%{module}
-Version:	0.5.0
+Version:	0.5.1
 Release:	1
 License:	BSD
 Group:		Libraries/Python
-Source0:	https://github.com/agateau/doxyqml/releases/download/%{version}/%{module}-%{version}.tar.bz2
-# Source0-md5:	891ac5824df626ec60f9323fef9bf197
-URL:		https://github.com/agateau/doxyqml
+Source0:	https://invent.kde.org/sdk/doxyqml/-/archive/%{version}/%{module}-%{version}.tar.bz2
+# Source0-md5:	7935ea56fc6ce9a102737fd93cf493a9
+URL:		https://agateau.com/projects/doxyqml/
 BuildRequires:	python3-modules >= 1:3.2
 BuildRequires:	python3-setuptools
 BuildRequires:	rpm-pythonprov
