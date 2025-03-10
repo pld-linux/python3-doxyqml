@@ -5,7 +5,7 @@ Summary:	Doxyqml
 Summary(pl.UTF-8):	Doxyqml
 Name:		python3-%{module}
 Version:	0.5.1
-Release:	5
+Release:	6
 License:	BSD
 Group:		Libraries/Python
 Source0:	https://invent.kde.org/sdk/doxyqml/-/archive/%{version}/%{module}-%{version}.tar.bz2
